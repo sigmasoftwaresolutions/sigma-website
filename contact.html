@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Sigma Consultants</title>
+  <meta name="description" content="Contact Sigma Consultants for IT consulting, software development, or WordPress plugin solutions.">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <a href="index.html" class="logo"><img src="images/Sigma-logo copy.png" alt="Sigma Consultants Logo"></a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li class="dropdown">
+          <a href="#">Products</a>
+          <ul class="submenu">
+            <li><a href="plugins.html">Plugins</a></li>
+            <li><a href="best-flipbooks.html">Best Flipbooks</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="dropdown">
+          <a href="#" class="active">Company</a>
+          <ul class="submenu">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container text-center">
+    <h1>Contact Us</h1>
+    <p>Let’s connect and discuss how Sigma Consultants can empower your business.</p>
+  </div>
+</section>
+
+<section class="contact container">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>Email: <a href="mailto:info@sigmaconsultants.com">info@sigmaconsultants.com</a></p>
+      
+      <p>Location: Bangalore, Karnataka, India</p>
+     
+    </div>
+    <form class="contact-form" action="contact_process.php" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit" class="btn">Send Message</button>
+</form>
+
+
+  </div>
+</section>
+
+<footer>
+  <div class="container text-center">
+    <p>© 2025 Sigma Consultants | All Rights Reserved</p>
+  </div>
+</footer>
+
+</body>
+</html>
