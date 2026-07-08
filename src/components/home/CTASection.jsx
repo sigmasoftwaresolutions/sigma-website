@@ -14,9 +14,9 @@ const CTASection = () => {
             enterprise technology, hardware solutions, and business automation.
           </p>
 
-          <button className="primary-btn">
-            Contact Us
-          </button>
+          <a href="/enquiry" className="primary-btn">
+            Enquiry
+          </a>
 
         </div>
 
