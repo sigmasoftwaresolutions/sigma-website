@@ -16,12 +16,17 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="logo">
-          <img
-            src={`${base}sigma-logo.svg`}
-            alt="Sigma Software Solutions Logo"
-            className="logo-img"
-          />
-          <h2>Sigma Software Solutions</h2>
+          <HashLink smooth to="/#home" onClick={closeMenu}>
+            <img
+              src={`${base}sigma-logo.svg`}
+              alt="Sigma Software Solutions Logo"
+              className="logo-img"
+            />
+          </HashLink>
+
+          <HashLink smooth to="/#home" onClick={closeMenu}>
+            <h2>Sigma Software Solutions</h2>
+          </HashLink>
         </div>
 
         {/* Mobile Menu */}
@@ -37,43 +42,43 @@ const Navbar = () => {
           <ul className="nav-links">
 
             <li>
-              <HashLink smooth to={`${base}#home`} onClick={closeMenu}>
+              <HashLink smooth to="/#home" onClick={closeMenu}>
                 Home
               </HashLink>
             </li>
 
             <li>
-              <HashLink smooth to={`${base}#about`} onClick={closeMenu}>
+              <HashLink smooth to="/#about" onClick={closeMenu}>
                 About
               </HashLink>
             </li>
 
             <li>
-              <HashLink smooth to={`${base}#services`} onClick={closeMenu}>
+              <HashLink smooth to="/#services" onClick={closeMenu}>
                 Services
               </HashLink>
             </li>
 
             <li>
-              <HashLink smooth to={`${base}#products`} onClick={closeMenu}>
+              <HashLink smooth to="/#products" onClick={closeMenu}>
                 Products
               </HashLink>
             </li>
 
             <li>
-              <HashLink smooth to={`${base}#why`} onClick={closeMenu}>
+              <HashLink smooth to="/#why" onClick={closeMenu}>
                 Why Us
               </HashLink>
             </li>
 
             <li>
-              <HashLink smooth to={`${base}#industries`} onClick={closeMenu}>
+              <HashLink smooth to="/#industries" onClick={closeMenu}>
                 Industries
               </HashLink>
             </li>
 
             <li>
-              <HashLink smooth to={`${base}#locateus`} onClick={closeMenu}>
+              <HashLink smooth to="/#locateus" onClick={closeMenu}>
                 Locate Us
               </HashLink>
             </li>
